@@ -82,6 +82,11 @@ _default_options_objects = [
         'value_type': 'int'
     },
     {
+        'name': 'REQ_TIME_COST',
+        'default_value': -1,
+        'value_type': 'int'
+    },
+    {
         'name': 'BATCH_LIMIT',
         'default_value': -1,
         'value_type': 'int'
@@ -152,9 +157,19 @@ _default_options_objects = [
         'value_type': 'str'
     },
     {
+        'name': 'SECONDARY',
+        'default_value': False,
+        'value_type': 'bool'
+    },
+    {
         'name': 'LOAD_ONLY',
         'default_value': None,
         'value_type': 'str'
+    },
+    {
+        'name': 'ALTERNATIVES_LIMIT',
+        'default_value': -1,
+        'value_type': 'int'
     },
     {
         'name': 'THREADS',
